@@ -1,0 +1,6 @@
+- hosts: Jenkins-CI
+  sudo: True
+  roles:
+     - git
+     - java installation
+     - jenkins installation
